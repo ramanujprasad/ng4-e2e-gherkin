@@ -13,7 +13,7 @@
             "name": "I am on the \"/\"",
             "result": {
               "status": "passed",
-              "duration": 317640786
+              "duration": 447108491
             },
             "line": 4,
             "match": {
@@ -25,9 +25,8 @@
             "keyword": "Then ",
             "name": "I see label \"mainLabel\"",
             "result": {
-              "status": "failed",
-              "duration": 10004998840,
-              "error_message": "function timed out after 10000 milliseconds"
+              "status": "passed",
+              "duration": 618456252
             },
             "line": 5,
             "match": {
@@ -38,9 +37,8 @@
             "arguments": [],
             "keyword": "After ",
             "result": {
-              "status": "failed",
-              "duration": 10000250526,
-              "error_message": "function timed out after 10000 milliseconds"
+              "status": "passed",
+              "duration": 586382
             },
             "hidden": true,
             "match": {
