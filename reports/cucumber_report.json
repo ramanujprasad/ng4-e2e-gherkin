@@ -1,0 +1,62 @@
+[
+  {
+    "elements": [
+      {
+        "id": "as-a-user-i-should-see-and-use-website;i-want-to-see-homepage",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "I want to see homepage",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 317640786
+            },
+            "line": 4,
+            "match": {
+              "location": "D:\\ProjectDocuments\\MyProject\\ng4-e2e-gherkin\\e2e\\pages\\home\\step-definitions\\home.step-definitions.ts:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I see label \"mainLabel\"",
+            "result": {
+              "status": "failed",
+              "duration": 10004998840,
+              "error_message": "function timed out after 10000 milliseconds"
+            },
+            "line": 5,
+            "match": {
+              "location": "D:\\ProjectDocuments\\MyProject\\ng4-e2e-gherkin\\e2e\\pages\\home\\step-definitions\\home.step-definitions.ts:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 10000250526,
+              "error_message": "function timed out after 10000 milliseconds"
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\ProjectDocuments\\MyProject\\ng4-e2e-gherkin\\e2e\\hooks\\failure.hook.ts:32"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-user-i-should-see-and-use-website",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "As a user I should see and use website",
+    "tags": [],
+    "uri": "D:\\ProjectDocuments\\MyProject\\ng4-e2e-gherkin\\e2e\\pages\\home\\features\\home.feature"
+  }
+]
