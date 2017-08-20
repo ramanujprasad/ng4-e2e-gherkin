@@ -18,5 +18,5 @@ npm install
 # start the server
 npm run start
 
-# run the tests ( this will both run the E2E & unit tests )
+# run the tests ( this will both run the E2E tests )
 npm run e2e

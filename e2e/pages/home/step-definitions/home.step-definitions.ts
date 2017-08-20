@@ -23,5 +23,12 @@ let commonStepDefinitionsWrapper = function () {
             .and.notify(callback);
     });
 
+    this.Then(/^I see table "([^"]*)"$/, function(elementKey: string, callback:any) {
+        browser.driver.wait(EC.presenceOf(homePage[elementKey]));
+        expect(homePage[elementKey].isPresent())
+            .to.eventually.true
+            .and.notify(callback);
+    });
+
 };
 module.exports = commonStepDefinitionsWrapper;
