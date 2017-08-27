@@ -1,5 +1,4 @@
 # BDD - Using Cucumber JS and Gherkin
-[![Build Status][travis-badge]][travis-badge-url]
 
 An example project to setup CucumberJS with Gherkin scenarios based on Behavior-Driven development (BDD) in Protractor & Angular4.
 https://github.com/angular/quickstart.git
