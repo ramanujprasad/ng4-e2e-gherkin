@@ -20,6 +20,6 @@ npm run start
 ## run the tests ( this will both run the E2E tests )
 npm run e2e
 
-## How game looks like?
+## How reports look like?
 
-![Game Image](https://github.com/ramanujprasad/ng4-e2e-gherkin/blob/master/ng4-e2e-gherkin/images/Testcase_reports.JPG)
+![Test Result Report](https://github.com/ramanujprasad/ng4-e2e-gherkin/blob/master/src/images/Testcase_reports.PNG)
